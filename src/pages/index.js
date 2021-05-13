@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import { Layout } from 'components/layout';
 
 // markup
 const StartPage = () => {
@@ -11,5 +12,7 @@ const StartPage = () => {
         </div>
     );
 };
+
+StartPage.Layout = Layout;
 
 export default StartPage;

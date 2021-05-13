@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Layout } from 'components/layout';
 
 const Contact = props => {
     return (
@@ -10,5 +11,7 @@ const Contact = props => {
 };
 
 Contact.propTypes = {};
+
+Contact.Layout = Layout;
 
 export default Contact;
