@@ -1,14 +1,12 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import { Layout } from 'components/layout';
+import { Layout } from 'components/Layout';
 
 // markup
 const StartPage = () => {
     return (
         <div>
-            <h1>Hello world</h1>
-            <Link to="/contact/">Contact</Link>
-            <Link to="/about/">About</Link>
+            <h1>Startsida</h1>
         </div>
     );
 };
