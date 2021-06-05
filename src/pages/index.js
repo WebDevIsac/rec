@@ -1,13 +1,16 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import { Layout } from 'components/Layout';
+import { Recipes } from 'components/Recipes';
+import { PageWrapper } from 'components/PageWrapper';
 
 // markup
 const StartPage = () => {
     return (
-        <div>
+        <PageWrapper>
             <h1>Startsida</h1>
-        </div>
+            <Recipes recipes={[1, 2, 3, 1, 2, 3, 1, 2, 3, 1]} />
+        </PageWrapper>
     );
 };
 

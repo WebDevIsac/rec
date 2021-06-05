@@ -5,7 +5,7 @@ module.exports = {
         title: 'My Recipes',
     },
     plugins: [
-        'gatsby-plugin-styletron',
+        'gatsby-plugin-styled-components',
         {
             resolve: 'gatsby-plugin-root-import',
             options: {
